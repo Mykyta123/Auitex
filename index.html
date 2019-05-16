@@ -1,0 +1,164 @@
+﻿<!-- Landing page template for a fictional YOSH Sidewalk shoes -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>YMI Your Musical Instruments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="description" content="Be first to get NEW 2019 YOSH Sidewalk™ High top sneakers">
+    <meta name="keywords" content="yosh, sidewalk, sneakers, shoes, fashion, style">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">    
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <div id="header">
+            <div class="header__logo">
+                <a href="/">YMI</a>
+                <span class="header__slogan">Your Musical Instrument</span>     
+            </div>
+            <nav>
+                <ul class="header__menu">
+                    <li><a href="#gallery">Gallery</a></li>                    
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#payment-and-delivery">Payment & Delivery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <form class = "search">
+				<input type="search">
+				<input type="submit" value="Search">
+			</form>
+        </div>        
+    </header>
+
+    <main>
+
+        <section>
+            <div class="promo">
+                <h1>YMI Your Musical Instruments</h1>
+                <img src="img/yosh-sidewalk.jpg" alt="YOSH Sidewalk High top sneakers" class="promo__img">
+                <div class="promo__decription">                
+                        <p>Be ready for anything in the YMI Your Musical Instruments.</p>
+                        <ul>
+                            <li>Canvas upper in an athletic high top lifestyle sneaker style with a round, cap toe</li>
+                            <li>Lace-up front with D-rings</li>
+                            <li>Contrasting stitched detail</li>
+                            <li> Rubber midsole</li>
+                            <li>Canvas lining, cushioning insole</li>
+                        </ul>                
+                </div>
+                <div class="promo__price">$54.99</div> 
+                <a class="promo__button" href="#order">Order now!</a>
+            </div>   
+        </section>
+
+        <section>
+                <div class="gallery">
+                    <h2 id="gallery">Gallery</h2>
+                    <a href="img/yosh-sidewalk-black-big.jpg" title="Click to enlarge"><img src="img/yosh-sidewalk-black.jpg" alt="YOSH Sidewalk Black"></a>
+                    <a href="img/yosh-sidewalk-blue-big.jpg" title="Click to enlarge"><img src="img/yosh-sidewalk-blue.jpg" alt="YOSH Sidewalk Blue"></a>
+                    <a href="img/yosh-sidewalk-white-big.jpg" title="Click to enlarge"><img src="img/yosh-sidewalk-white.jpg" alt="YOSH Sidewalk White"></a>
+                </div>
+            </section>
+
+        <section>
+            <div class="order">
+                <h2 id="order">Order</h2>
+                        <div id="order_wrapper">
+							    <div class="item_box">
+							        <h3 class="item_title">White Sand</h3>
+							        <p>Price: <span class="item_price">50</span>$</p>
+							        <button class="add_item" data-id="7">Add to cart</button>
+							    </div>
+							    <div class="item_box">
+							        <h3 class="item_title">Sausony</h3>
+							        <p>Price: <span class="item_price">100</span>$</p>
+							        <button class="add_item" data-id="2">Add to cart</button>
+							    </div>
+							    <div class="item_box">
+							        <h3 class="item_title">Shamrock</h3>
+							        <p>Price: <span class="item_price">80</span>$</p>
+							        <button class="add_item" data-id="5">Add to cart</button>
+							    </div>
+							    <p><button id="checkout">Сheckout</button> &nbsp; <button id="clear_cart">Clear cart</button></p>
+							    <div id="cart_content"></div>
+						</div>
+            </div>
+        </section>
+   
+        <section>
+            <div class="payment-and-delivery">
+                <h2 id="payment-and-delivery">Payment & Delivery</h2>
+                <ol>
+                    <li>Lorem ipsum, dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur?</li>
+                </ol>                
+            </div>    
+        </section>
+
+        <section>
+            <div class="reviews">
+                <h2  id="reviews">Reviews</h2>
+                <ul>
+                    <li>
+                        <article>                    
+                        <h4>Mary Meyer</h4>  
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi ducimus dolores harum sunt, cumque ut similique. Accusamus rerum iusto doloremque distinctio, voluptate est quis delectus dolore in natus deserunt. Earum!</p>                   
+                        </article>
+                    </li>
+                    <li>                        
+                        <article>
+                            <h4>Matthew Hurst</h4>  
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora aperiam quo nostrum autem labore officiis. Architecto fugit molestias, iste quae dicta autem. Id veritatis sint, dolorum repellendus perferendis iste error?</p>
+                        </article>          
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Wanda Parker</h4>  
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima in, rem asperiores consectetur similique eius fugiat quaerat impedit, velit quis facilis ipsum ab quo corrupti quod sequi, beatae optio.</p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__contacts">
+                <h3 id="contacts">Contact Us</h3>
+                <ul>
+                    <li><a href="tel:+1-202-555-0196">+1-202-555-0196</a></li>
+                    <li><a href="mailto:shop@yosh.com">shop@ymi.com</a></li>
+                    <li>5036  Norman Street, Hollywood, CA, PO 90028</li>
+                </ul>      
+            </div>
+            <div class="footer__social">
+                <h3>Follow Us</h3>        
+                <ul>
+                    <li><a href="fb.com/yosh">Facebook</a></li>
+                    <li><a href="instagram.com/yosh">Instagram</a></li>                        
+                </ul>
+            </div>  
+            <div class="footer__copyright">
+                © YMI, 2019
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
